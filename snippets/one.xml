@@ -21,7 +21,7 @@
 <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
 </project>
-<project path="build/make" name="build_make" groups="pdk" remote="ours" revision="8.1" >
+<project path="build/make" name="build_make" groups="pdk" remote="one" revision="android-8.1.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
