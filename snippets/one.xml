@@ -60,7 +60,7 @@
 <project path="system/core" name="system_core" groups="pdk" remote="one" revision="android-8.1.0"/>
 <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="one" revision="android-8.1.0"/>
 <project path="system/vold" name="system_vold" groups="pdk" remote="one" revision="android-8.1.0"/>
-<project path="vendor/qcom/opensource/dataservices" name="vendor_qcom-opensource_dataservices" remote="one" revision="data.lnx.3.0.r23-rel" />
+<project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
 <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="one" revision="android-8.1.0" />
 <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="one" revision="android-8.1.0" />
 
