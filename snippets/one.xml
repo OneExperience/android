@@ -16,7 +16,7 @@
 	  revision="lineage-15.1"/>
 
 <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" groups="pdk-fs" remote="los"/>
-<project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" groups="pdk-fs" remote="one" revision="android-8.1.0" >
+<project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" groups="pdk-fs" remote="one" revision="android-8.1.0" />
 <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="los" />
 <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
@@ -38,7 +38,7 @@
 <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="one" revision="android-8.1.0"/>
 <project path="external/selinux" name="external_selinux" groups="pdk" remote="one" revision="android-8.1.0"/>
 <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="one" revision="android-8.1.0"/>
-<project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" revision="lineage-15.1" />
+<project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los"  />
 <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="one" revision="android-8.1.0"/>
 <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="one" revision="android-8.1.0"/>
 <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="one" revision="android-8.1.0"/>
