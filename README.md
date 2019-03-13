@@ -77,5 +77,5 @@ Build command is
     export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4000m"
     . build/envsetup.sh
     lunch one_$device-userdebug
-    make -jx otapackage
+    make bacon-jx 
 
