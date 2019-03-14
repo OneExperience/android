@@ -6,7 +6,7 @@
         fetch="https://github.com/" />
 
    <remote name="one"
-          fetch="https://github.com/OneExperience"/>
+          fetch="https://github.com/OneExperience/"/>
 
    <remote name="ours"
 	  fetch="https://github.com/AOSP-Oreo-MSM8916/"/>
