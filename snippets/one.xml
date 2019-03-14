@@ -65,6 +65,8 @@
 <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
 <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="one" />
 <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="one" />
+<project path="vendor/one" name="vendor_one" remote="one" />
+<project path="vendor/onestyle" name="vendor_onestyle" remote="one" />
 
  <!-- Gapps -->
   <include name="snippets/opengapps.xml" />
