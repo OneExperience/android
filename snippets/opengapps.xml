@@ -6,7 +6,7 @@
     <remote name="nezor" 
         fetch="https://gitlab.nezorfla.me/opengapps/"  />
 
- <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+ <project path="vendor/opengapps/build" name="vendor_gapps_build" revision="master" remote="one" />
 
  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="nezor" />
 
