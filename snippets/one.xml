@@ -6,10 +6,12 @@
         fetch="https://github.com/" />
 
    <remote name="one"
-          fetch="https://github.com/OneExperience/"/>
+          fetch="https://github.com/OneExperience/"
+	  revision="android-8.1.0" />
 
    <remote name="ours"
-	  fetch="https://github.com/AOSP-Oreo-MSM8916/"/>
+	  fetch="https://github.com/AOSP-Oreo-MSM8916/"
+	  revision="8.1" />
 
    <remote name="los"
 	  fetch="https://github.com/LineageOS/"
@@ -34,35 +36,35 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 </project>
-<project path="bionic" name="bionic" groups="pdk" remote="one" revision="android-8.1.0"/>
-<project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="one" revision="android-8.1.0"/>
-<project path="external/selinux" name="external_selinux" groups="pdk" remote="one" revision="android-8.1.0"/>
-<project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="one" revision="android-8.1.0"/>
+<project path="bionic" name="bionic" groups="pdk" remote="one"/>
+<project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="one" />
+<project path="external/selinux" name="external_selinux" groups="pdk" remote="one" />
+<project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="one" />
 <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los"  />
-<project path="frameworks/av" name="frameworks_av" groups="pdk" remote="one" revision="android-8.1.0"/>
-<project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="one" revision="android-8.1.0"/>
-<project path="frameworks/native" name="frameworks_native" groups="pdk" remote="one" revision="android-8.1.0"/>
-<project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="one" revision="android-8.1.0"/>
+<project path="frameworks/av" name="frameworks_av" groups="pdk" remote="one" />
+<project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="one" />
+<project path="frameworks/native" name="frameworks_native" groups="pdk" remote="one" />
+<project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="ours" />
 <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="ours" revision="8.1"/>
 <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom,pdk" remote="ours" revision="8.1"/>
 <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom,pdk" remote="ours" revision="8.1-caf"/>
-<project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display-caf_msm8916" remote="one" revision="android-8.1.0"/>
-<project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media-caf_msm8916" remote="one" revision="android-8.1.0"/>
-<project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio-caf_msm8916" remote="one" revision="android-8.1.0"/>
-<project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="one" revision="android-8.1.0" />
+<project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display-caf_msm8916" remote="one" />
+<project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media-caf_msm8916" remote="one" />
+<project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio-caf_msm8916" remote="one" />
+<project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="one" />
 <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="ours" revision="8.1"/>
 <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="pdk" remote="ours" revision="8.1-caf"/>
-<project path="hardware/ril" name="hardware_ril" groups="pdk" remote="one" revision="android-8.1.0"/>
-<project path="hardware/ril-caf" name="hardware_ril" groups="pdk" remote="one" revision="android-8.1.0-caf"/>
+<project path="hardware/ril" name="hardware_ril" groups="pdk" remote="ours" />
+<project path="hardware/ril-caf" name="hardware_ril" groups="pdk" remote="ours" revision="8.1-caf"/>
 <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="one" revision="android-8.1.0"/>
-<project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="one" revision="android-8.1.0"/>
-<project path="system/bt" name="system_bt" groups="pdk" remote="one" revision="android-8.1.0"/>
-<project path="system/core" name="system_core" groups="pdk" remote="one" revision="android-8.1.0"/>
-<project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="one" revision="android-8.1.0"/>
-<project path="system/vold" name="system_vold" groups="pdk" remote="one" revision="android-8.1.0"/>
+<project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="one" />
+<project path="system/bt" name="system_bt" groups="pdk" remote="one" />
+<project path="system/core" name="system_core" groups="pdk" remote="one" />
+<project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="one" />
+<project path="system/vold" name="system_vold" groups="pdk" remote="one" />
 <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
-<project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="one" revision="android-8.1.0" />
-<project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="one" revision="android-8.1.0" />
+<project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="one" />
+<project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="one" />
 
  <!-- Gapps -->
   <include name="snippets/opengapps.xml" />
